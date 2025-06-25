@@ -1,0 +1,1573 @@
+EESchema Schematic File Version 4
+LIBS:DCDC_01-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L device:L L?
+U 1 1 5BC21EA9
+P 7700 2250
+AR Path="/5B2FB0D8/5BC21EA9" Ref="L?"  Part="1" 
+AR Path="/5BC21A84/5BC21EA9" Ref="L9"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21EA9" Ref="L9"  Part="1" 
+F 0 "L9" V 7522 2250 50  0000 C CNN
+F 1 "L" V 7613 2250 50  0000 C CNN
+F 2 "Footprints:PQ2614BLA-6R8K" H 7700 2250 50  0001 C CNN
+F 3 "~" H 7700 2250 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+	1    7700 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5BC21EB0
+P 3650 2250
+AR Path="/5B2FB0D8/5BC21EB0" Ref="C?"  Part="1" 
+AR Path="/5BC21A84/5BC21EB0" Ref="C43"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21EB0" Ref="C43"  Part="1" 
+F 0 "C43" H 3765 2296 50  0000 L CNN
+F 1 "C" H 3765 2205 50  0000 L CNN
+F 2 "" H 3688 2100 50  0001 C CNN
+F 3 "~" H 3650 2250 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+F 5 "50V" H 0   0   50  0001 C CNN "Voltage"
+	1    3650 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC21EC3
+P 5150 2750
+AR Path="/5B2FB0D8/5BC21EC3" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC21EC3" Ref="#PWR061"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21EC3" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 5150 2500 50  0001 C CNN
+F 1 "GND" H 5155 2577 50  0000 C CNN
+F 2 "" H 5150 2750 50  0001 C CNN
+F 3 "" H 5150 2750 50  0001 C CNN
+	1    5150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC21EC9
+P 6600 2750
+AR Path="/5B2FB0D8/5BC21EC9" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC21EC9" Ref="#PWR085"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21EC9" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 6600 2500 50  0001 C CNN
+F 1 "GND" H 6605 2577 50  0000 C CNN
+F 2 "" H 6600 2750 50  0001 C CNN
+F 3 "" H 6600 2750 50  0001 C CNN
+	1    6600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC21ECF
+P 8250 2250
+AR Path="/5B2FB0D8/5BC21ECF" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC21ECF" Ref="R65"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21ECF" Ref="R65"  Part="1" 
+F 0 "R65" V 8043 2250 50  0000 C CNN
+F 1 "R" V 8134 2250 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 8180 2250 50  0001 C CNN
+F 3 "~" H 8250 2250 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+	1    8250 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5BC21EE1
+P 8250 3150
+AR Path="/5B2FB0D8/5BC21EE1" Ref="C?"  Part="1" 
+AR Path="/5BC21A84/5BC21EE1" Ref="C71"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21EE1" Ref="C71"  Part="1" 
+F 0 "C71" H 8365 3196 50  0000 L CNN
+F 1 "C" H 8365 3105 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8288 3000 50  0001 C CNN
+F 3 "~" H 8250 3150 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+F 5 "50V" H 0   0   50  0001 C CNN "Voltage"
+	1    8250 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:L L?
+U 1 1 5BC21F17
+P 7750 5400
+AR Path="/5B2FB0D8/5BC21F17" Ref="L?"  Part="1" 
+AR Path="/5BC21A84/5BC21F17" Ref="L10"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21F17" Ref="L10"  Part="1" 
+F 0 "L10" V 7572 5400 50  0000 C CNN
+F 1 "L" H 7663 5400 50  0000 C CNN
+F 2 "Footprints:PQ2614BLA-6R8K" H 7750 5400 50  0001 C CNN
+F 3 "~" H 7750 5400 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+	1    7750 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5BC21F1E
+P 3700 5400
+AR Path="/5B2FB0D8/5BC21F1E" Ref="C?"  Part="1" 
+AR Path="/5BC21A84/5BC21F1E" Ref="C51"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21F1E" Ref="C51"  Part="1" 
+F 0 "C51" H 3815 5446 50  0000 L CNN
+F 1 "C" H 3815 5355 50  0000 L CNN
+F 2 "" H 3738 5250 50  0001 C CNN
+F 3 "~" H 3700 5400 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+F 5 "50V" H 50  600 50  0001 C CNN "Voltage"
+	1    3700 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC21F31
+P 5200 5900
+AR Path="/5B2FB0D8/5BC21F31" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC21F31" Ref="#PWR062"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21F31" Ref="#PWR062"  Part="1" 
+F 0 "#PWR062" H 5200 5650 50  0001 C CNN
+F 1 "GND" H 5205 5727 50  0000 C CNN
+F 2 "" H 5200 5900 50  0001 C CNN
+F 3 "" H 5200 5900 50  0001 C CNN
+	1    5200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC21F37
+P 6650 5900
+AR Path="/5B2FB0D8/5BC21F37" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC21F37" Ref="#PWR086"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21F37" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 6650 5650 50  0001 C CNN
+F 1 "GND" H 6655 5727 50  0000 C CNN
+F 2 "" H 6650 5900 50  0001 C CNN
+F 3 "" H 6650 5900 50  0001 C CNN
+	1    6650 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC21F3D
+P 8300 5400
+AR Path="/5B2FB0D8/5BC21F3D" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC21F3D" Ref="R66"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21F3D" Ref="R66"  Part="1" 
+F 0 "R66" V 8093 5400 50  0000 C CNN
+F 1 "R" V 8184 5400 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 8230 5400 50  0001 C CNN
+F 3 "~" H 8300 5400 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+	1    8300 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5BC21F4F
+P 8300 6300
+AR Path="/5B2FB0D8/5BC21F4F" Ref="C?"  Part="1" 
+AR Path="/5BC21A84/5BC21F4F" Ref="C73"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21F4F" Ref="C73"  Part="1" 
+F 0 "C73" H 8415 6346 50  0000 L CNN
+F 1 "C" H 8415 6255 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8338 6150 50  0001 C CNN
+F 3 "~" H 8300 6300 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+F 5 "50V" H 50  600 50  0001 C CNN "Voltage"
+	1    8300 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5BC21F69
+P 8800 2250
+AR Path="/5B2FB0D8/5BC21F69" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC21F69" Ref="#PWR096"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21F69" Ref="#PWR096"  Part="1" 
+F 0 "#PWR096" H 8800 2100 50  0001 C CNN
+F 1 "+12V" H 8815 2423 50  0000 C CNN
+F 2 "" H 8800 2250 50  0001 C CNN
+F 3 "" H 8800 2250 50  0001 C CNN
+	1    8800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5BC21F6F
+P 8850 5400
+AR Path="/5B2FB0D8/5BC21F6F" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC21F6F" Ref="#PWR097"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21F6F" Ref="#PWR097"  Part="1" 
+F 0 "#PWR097" H 8850 5250 50  0001 C CNN
+F 1 "+12V" H 8865 5573 50  0000 C CNN
+F 2 "" H 8850 5400 50  0001 C CNN
+F 3 "" H 8850 5400 50  0001 C CNN
+	1    8850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5BC21F75
+P 7350 2450
+AR Path="/5B2FB0D8/5BC21F75" Ref="C?"  Part="1" 
+AR Path="/5BC21A84/5BC21F75" Ref="C68"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21F75" Ref="C68"  Part="1" 
+F 0 "C68" H 7465 2496 50  0000 L CNN
+F 1 "C" H 7465 2405 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7388 2300 50  0001 C CNN
+F 3 "~" H 7350 2450 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+F 5 "50V" H 0   0   50  0001 C CNN "Voltage"
+	1    7350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC21F83
+P 7350 2950
+AR Path="/5B2FB0D8/5BC21F83" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC21F83" Ref="#PWR092"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21F83" Ref="#PWR092"  Part="1" 
+F 0 "#PWR092" H 7350 2700 50  0001 C CNN
+F 1 "GND" H 7355 2777 50  0000 C CNN
+F 2 "" H 7350 2950 50  0001 C CNN
+F 3 "" H 7350 2950 50  0001 C CNN
+	1    7350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5BC21F8D
+P 7400 5600
+AR Path="/5B2FB0D8/5BC21F8D" Ref="C?"  Part="1" 
+AR Path="/5BC21A84/5BC21F8D" Ref="C69"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21F8D" Ref="C69"  Part="1" 
+F 0 "C69" H 7515 5646 50  0000 L CNN
+F 1 "C" H 7515 5555 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7438 5450 50  0001 C CNN
+F 3 "~" H 7400 5600 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+F 5 "50V" H 50  600 50  0001 C CNN "Voltage"
+	1    7400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC21F9B
+P 7400 6100
+AR Path="/5B2FB0D8/5BC21F9B" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC21F9B" Ref="#PWR093"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21F9B" Ref="#PWR093"  Part="1" 
+F 0 "#PWR093" H 7400 5850 50  0001 C CNN
+F 1 "GND" H 7405 5927 50  0000 C CNN
+F 2 "" H 7400 6100 50  0001 C CNN
+F 3 "" H 7400 6100 50  0001 C CNN
+	1    7400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_Schottky D?
+U 1 1 5BC21FB3
+P 3200 2050
+AR Path="/5B2FB0D8/5BC21FB3" Ref="D?"  Part="1" 
+AR Path="/5BC21A84/5BC21FB3" Ref="D2"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21FB3" Ref="D2"  Part="1" 
+F 0 "D2" H 3200 1834 50  0000 C CNN
+F 1 "D_Schottky" H 3200 1925 50  0000 C CNN
+F 2 "" H 3200 2050 50  0001 C CNN
+F 3 "~" H 3200 2050 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+	1    3200 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:D_Schottky D?
+U 1 1 5BC21FC0
+P 3250 5200
+AR Path="/5B2FB0D8/5BC21FC0" Ref="D?"  Part="1" 
+AR Path="/5BC21A84/5BC21FC0" Ref="D3"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21FC0" Ref="D3"  Part="1" 
+F 0 "D3" H 3250 4984 50  0000 C CNN
+F 1 "D_Schottky" H 3250 5075 50  0000 C CNN
+F 2 "" H 3250 5200 50  0001 C CNN
+F 3 "~" H 3250 5200 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+	1    3250 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC21FD1
+P 4700 5100
+AR Path="/5B2FB0D8/5BC21FD1" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC21FD1" Ref="R41"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21FD1" Ref="R41"  Part="1" 
+F 0 "R41" V 4600 5100 50  0000 C CNN
+F 1 "0R0" V 4700 5100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4630 5100 50  0001 C CNN
+F 3 "~" H 4700 5100 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+	1    4700 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC21FD9
+P 4700 5700
+AR Path="/5B2FB0D8/5BC21FD9" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC21FD9" Ref="R42"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21FD9" Ref="R42"  Part="1" 
+F 0 "R42" V 4600 5700 50  0000 C CNN
+F 1 "0R0" V 4700 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4630 5700 50  0001 C CNN
+F 3 "~" H 4700 5700 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+	1    4700 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC21FE1
+P 4650 2550
+AR Path="/5B2FB0D8/5BC21FE1" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC21FE1" Ref="R40"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21FE1" Ref="R40"  Part="1" 
+F 0 "R40" V 4550 2550 50  0000 C CNN
+F 1 "0R0" V 4650 2550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4580 2550 50  0001 C CNN
+F 3 "~" H 4650 2550 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+	1    4650 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC21FE9
+P 4650 1950
+AR Path="/5B2FB0D8/5BC21FE9" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC21FE9" Ref="R39"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21FE9" Ref="R39"  Part="1" 
+F 0 "R39" V 4550 1950 50  0000 C CNN
+F 1 "0R0" V 4650 1950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4580 1950 50  0001 C CNN
+F 3 "~" H 4650 1950 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+	1    4650 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC21FF1
+P 6100 1950
+AR Path="/5B2FB0D8/5BC21FF1" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC21FF1" Ref="R43"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21FF1" Ref="R43"  Part="1" 
+F 0 "R43" V 6000 1950 50  0000 C CNN
+F 1 "0R0" V 6100 1950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6030 1950 50  0001 C CNN
+F 3 "~" H 6100 1950 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+	1    6100 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC21FF8
+P 6100 2550
+AR Path="/5B2FB0D8/5BC21FF8" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC21FF8" Ref="R44"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC21FF8" Ref="R44"  Part="1" 
+F 0 "R44" V 6000 2550 50  0000 C CNN
+F 1 "0R0" V 6100 2550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6030 2550 50  0001 C CNN
+F 3 "~" H 6100 2550 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+	1    6100 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC22000
+P 6150 5100
+AR Path="/5B2FB0D8/5BC22000" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC22000" Ref="R45"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC22000" Ref="R45"  Part="1" 
+F 0 "R45" V 6050 5100 50  0000 C CNN
+F 1 "0R0" V 6150 5100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6080 5100 50  0001 C CNN
+F 3 "~" H 6150 5100 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+	1    6150 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC22007
+P 6150 5700
+AR Path="/5B2FB0D8/5BC22007" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC22007" Ref="R46"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC22007" Ref="R46"  Part="1" 
+F 0 "R46" V 6050 5700 50  0000 C CNN
+F 1 "0R0" V 6150 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6080 5700 50  0001 C CNN
+F 3 "~" H 6150 5700 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+	1    6150 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L ICs:INA21x U?
+U 1 1 5BC22037
+P 7400 950
+AR Path="/5B2FB0D8/5BC22037" Ref="U?"  Part="1" 
+AR Path="/5BC21A84/5BC22037" Ref="U6"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC22037" Ref="U6"  Part="1" 
+F 0 "U6" H 7200 700 39  0000 C CNN
+F 1 "INA21x" H 7200 600 39  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 7400 650 39  0001 C CNN
+F 3 "" H 7400 650 39  0001 C CNN
+F 4 " " H 0   -300 50  0001 C CNN "DNP"
+	1    7400 950 
+	1    0    0    1   
+$EndComp
+$Comp
+L ICs:INA21x U?
+U 2 1 5BC2203E
+P 1800 7000
+AR Path="/5B2FB0D8/5BC2203E" Ref="U?"  Part="2" 
+AR Path="/5BC21A84/5BC2203E" Ref="U6"  Part="2" 
+AR Path="/5C8FC872/5C8FC88B/5BC2203E" Ref="U6"  Part="2" 
+F 0 "U6" H 1828 7063 39  0000 L CNN
+F 1 "INA21x" H 1828 6988 39  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 1800 6700 39  0001 C CNN
+F 3 "" H 1800 6700 39  0001 C CNN
+F 4 " " H -2650 50  50  0001 C CNN "DNP"
+	2    1800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ICs:INA21x U?
+U 1 1 5BC22045
+P 7450 4000
+AR Path="/5B2FB0D8/5BC22045" Ref="U?"  Part="1" 
+AR Path="/5BC21A84/5BC22045" Ref="U7"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC22045" Ref="U7"  Part="1" 
+F 0 "U7" H 7250 3750 39  0000 C CNN
+F 1 "INA21x" H 7250 3650 39  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 7450 3700 39  0001 C CNN
+F 3 "" H 7450 3700 39  0001 C CNN
+F 4 " " H 50  200 50  0001 C CNN "DNP"
+	1    7450 4000
+	1    0    0    1   
+$EndComp
+$Comp
+L ICs:INA21x U?
+U 2 1 5BC2204C
+P 2750 7000
+AR Path="/5B2FB0D8/5BC2204C" Ref="U?"  Part="2" 
+AR Path="/5BC21A84/5BC2204C" Ref="U7"  Part="2" 
+AR Path="/5C8FC872/5C8FC88B/5BC2204C" Ref="U7"  Part="2" 
+F 0 "U7" H 2778 7063 39  0000 L CNN
+F 1 "INA21x" H 2778 6988 39  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 2750 6700 39  0001 C CNN
+F 3 "" H 2750 6700 39  0001 C CNN
+F 4 " " H -2650 50  50  0001 C CNN "DNP"
+	2    2750 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC22053
+P 8050 4850
+AR Path="/5B2FB0D8/5BC22053" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC22053" Ref="R63"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC22053" Ref="R63"  Part="1" 
+F 0 "R63" V 7950 4850 50  0000 C CNN
+F 1 "3R3" V 8050 4850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7980 4850 50  0001 C CNN
+F 3 "~" H 8050 4850 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+	1    8050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC2205A
+P 8550 4850
+AR Path="/5B2FB0D8/5BC2205A" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC2205A" Ref="R69"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC2205A" Ref="R69"  Part="1" 
+F 0 "R69" V 8450 4850 50  0000 C CNN
+F 1 "3R3" V 8550 4850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8480 4850 50  0001 C CNN
+F 3 "~" H 8550 4850 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+	1    8550 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5BC22061
+P 8300 4200
+AR Path="/5B2FB0D8/5BC22061" Ref="C?"  Part="1" 
+AR Path="/5BC21A84/5BC22061" Ref="C72"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC22061" Ref="C72"  Part="1" 
+F 0 "C72" H 8415 4246 50  0000 L CNN
+F 1 "C" H 8415 4155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8338 4050 50  0001 C CNN
+F 3 "~" H 8300 4200 50  0001 C CNN
+F 4 " " H 50  200 50  0001 C CNN "DNP"
+F 5 "50V" H 50  200 50  0001 C CNN "Voltage"
+	1    8300 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:Net-Tie_2 NT?
+U 1 1 5BC22074
+P 8000 2500
+AR Path="/5B2FB0D8/5BC22074" Ref="NT?"  Part="1" 
+AR Path="/5BC21A84/5BC22074" Ref="NT2"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC22074" Ref="NT2"  Part="1" 
+F 0 "NT2" V 8000 2459 50  0000 R CNN
+F 1 "Net-Tie_2" H 8000 2587 50  0001 C CNN
+F 2 "" H 8000 2500 50  0001 C CNN
+F 3 "~" H 8000 2500 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+	1    8000 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:Net-Tie_2 NT?
+U 1 1 5BC2207C
+P 8500 2500
+AR Path="/5B2FB0D8/5BC2207C" Ref="NT?"  Part="1" 
+AR Path="/5BC21A84/5BC2207C" Ref="NT6"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC2207C" Ref="NT6"  Part="1" 
+F 0 "NT6" V 8500 2541 50  0000 L CNN
+F 1 "Net-Tie_2" V 8545 2541 50  0001 L CNN
+F 2 "" H 8500 2500 50  0001 C CNN
+F 3 "~" H 8500 2500 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+	1    8500 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L device:Net-Tie_2 NT?
+U 1 1 5BC22084
+P 8050 5650
+AR Path="/5B2FB0D8/5BC22084" Ref="NT?"  Part="1" 
+AR Path="/5BC21A84/5BC22084" Ref="NT4"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC22084" Ref="NT4"  Part="1" 
+F 0 "NT4" V 8050 5609 50  0000 R CNN
+F 1 "Net-Tie_2" H 8050 5737 50  0001 C CNN
+F 2 "" H 8050 5650 50  0001 C CNN
+F 3 "~" H 8050 5650 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+	1    8050 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:Net-Tie_2 NT?
+U 1 1 5BC2208C
+P 8550 5650
+AR Path="/5B2FB0D8/5BC2208C" Ref="NT?"  Part="1" 
+AR Path="/5BC21A84/5BC2208C" Ref="NT8"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC2208C" Ref="NT8"  Part="1" 
+F 0 "NT8" V 8550 5691 50  0000 L CNN
+F 1 "Net-Tie_2" V 8595 5691 50  0001 L CNN
+F 2 "" H 8550 5650 50  0001 C CNN
+F 3 "~" H 8550 5650 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+	1    8550 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L device:Net-Tie_2 NT?
+U 1 1 5BC22094
+P 8050 5150
+AR Path="/5B2FB0D8/5BC22094" Ref="NT?"  Part="1" 
+AR Path="/5BC21A84/5BC22094" Ref="NT3"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC22094" Ref="NT3"  Part="1" 
+F 0 "NT3" V 8050 5109 50  0000 R CNN
+F 1 "Net-Tie_2" H 8050 5237 50  0001 C CNN
+F 2 "" H 8050 5150 50  0001 C CNN
+F 3 "~" H 8050 5150 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+	1    8050 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:Net-Tie_2 NT?
+U 1 1 5BC2209C
+P 8550 5150
+AR Path="/5B2FB0D8/5BC2209C" Ref="NT?"  Part="1" 
+AR Path="/5BC21A84/5BC2209C" Ref="NT7"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC2209C" Ref="NT7"  Part="1" 
+F 0 "NT7" V 8550 5191 50  0000 L CNN
+F 1 "Net-Tie_2" V 8595 5191 50  0001 L CNN
+F 2 "" H 8550 5150 50  0001 C CNN
+F 3 "~" H 8550 5150 50  0001 C CNN
+F 4 " " H 50  600 50  0001 C CNN "DNP"
+	1    8550 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC220A8
+P 7550 4000
+AR Path="/5B2FB0D8/5BC220A8" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC220A8" Ref="#PWR095"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC220A8" Ref="#PWR095"  Part="1" 
+F 0 "#PWR095" H 7550 3750 50  0001 C CNN
+F 1 "GND" H 7555 3827 50  0000 C CNN
+F 2 "" H 7550 4000 50  0001 C CNN
+F 3 "" H 7550 4000 50  0001 C CNN
+	1    7550 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC220AE
+P 7500 950
+AR Path="/5B2FB0D8/5BC220AE" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC220AE" Ref="#PWR094"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC220AE" Ref="#PWR094"  Part="1" 
+F 0 "#PWR094" H 7500 700 50  0001 C CNN
+F 1 "GND" H 7505 777 50  0000 C CNN
+F 2 "" H 7500 950 50  0001 C CNN
+F 3 "" H 7500 950 50  0001 C CNN
+	1    7500 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC220B4
+P 8000 1700
+AR Path="/5B2FB0D8/5BC220B4" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC220B4" Ref="R61"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC220B4" Ref="R61"  Part="1" 
+F 0 "R61" V 7900 1700 50  0000 C CNN
+F 1 "3R3" V 8000 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7930 1700 50  0001 C CNN
+F 3 "~" H 8000 1700 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+	1    8000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC220BB
+P 8500 1700
+AR Path="/5B2FB0D8/5BC220BB" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC220BB" Ref="R67"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC220BB" Ref="R67"  Part="1" 
+F 0 "R67" V 8400 1700 50  0000 C CNN
+F 1 "3R3" V 8500 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8430 1700 50  0001 C CNN
+F 3 "~" H 8500 1700 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+	1    8500 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5BC220C2
+P 8250 1150
+AR Path="/5B2FB0D8/5BC220C2" Ref="C?"  Part="1" 
+AR Path="/5BC21A84/5BC220C2" Ref="C70"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC220C2" Ref="C70"  Part="1" 
+F 0 "C70" H 8365 1196 50  0000 L CNN
+F 1 "C" H 8365 1105 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8288 1000 50  0001 C CNN
+F 3 "~" H 8250 1150 50  0001 C CNN
+F 4 " " H 0   -300 50  0001 C CNN "DNP"
+F 5 "50V" H 0   -300 50  0001 C CNN "Voltage"
+	1    8250 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:Net-Tie_2 NT?
+U 1 1 5BC220D2
+P 8000 2000
+AR Path="/5B2FB0D8/5BC220D2" Ref="NT?"  Part="1" 
+AR Path="/5BC21A84/5BC220D2" Ref="NT1"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC220D2" Ref="NT1"  Part="1" 
+F 0 "NT1" V 8000 1959 50  0000 R CNN
+F 1 "Net-Tie_2" H 8000 2087 50  0001 C CNN
+F 2 "" H 8000 2000 50  0001 C CNN
+F 3 "~" H 8000 2000 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+	1    8000 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:Net-Tie_2 NT?
+U 1 1 5BC220DA
+P 8500 2000
+AR Path="/5B2FB0D8/5BC220DA" Ref="NT?"  Part="1" 
+AR Path="/5BC21A84/5BC220DA" Ref="NT5"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC220DA" Ref="NT5"  Part="1" 
+F 0 "NT5" V 8500 2041 50  0000 L CNN
+F 1 "Net-Tie_2" V 8545 2041 50  0001 L CNN
+F 2 "" H 8500 2000 50  0001 C CNN
+F 3 "~" H 8500 2000 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+	1    8500 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC220E4
+P 6650 4000
+AR Path="/5B2FB0D8/5BC220E4" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC220E4" Ref="R48"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC220E4" Ref="R48"  Part="1" 
+F 0 "R48" V 6550 4000 50  0000 C CNN
+F 1 "10k" V 6650 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6580 4000 50  0001 C CNN
+F 3 "~" H 6650 4000 50  0001 C CNN
+F 4 " " H 50  200 50  0001 C CNN "DNP"
+	1    6650 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5BC220EB
+P 6400 4250
+AR Path="/5B2FB0D8/5BC220EB" Ref="C?"  Part="1" 
+AR Path="/5BC21A84/5BC220EB" Ref="C54"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC220EB" Ref="C54"  Part="1" 
+F 0 "C54" H 6515 4296 50  0000 L CNN
+F 1 "100nF" H 6515 4205 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6438 4100 50  0001 C CNN
+F 3 "~" H 6400 4250 50  0001 C CNN
+F 4 " " H -200 750 50  0001 C CNN "DNP"
+F 5 "50V" H -200 750 50  0001 C CNN "Voltage"
+	1    6400 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC220F2
+P 6400 4400
+AR Path="/5B2FB0D8/5BC220F2" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC220F2" Ref="#PWR088"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC220F2" Ref="#PWR088"  Part="1" 
+F 0 "#PWR088" H 6400 4150 50  0001 C CNN
+F 1 "GND" H 6405 4227 50  0000 C CNN
+F 2 "" H 6400 4400 50  0001 C CNN
+F 3 "" H 6400 4400 50  0001 C CNN
+	1    6400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5BC220FF
+P 6600 950
+AR Path="/5B2FB0D8/5BC220FF" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5BC220FF" Ref="R47"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC220FF" Ref="R47"  Part="1" 
+F 0 "R47" V 6500 950 50  0000 C CNN
+F 1 "10k" V 6600 950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6530 950 50  0001 C CNN
+F 3 "~" H 6600 950 50  0001 C CNN
+F 4 " " H 0   -300 50  0001 C CNN "DNP"
+	1    6600 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5BC2210C
+P 2250 7000
+AR Path="/5B2FB0D8/5BC2210C" Ref="C?"  Part="1" 
+AR Path="/5BC21A84/5BC2210C" Ref="C67"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC2210C" Ref="C67"  Part="1" 
+F 0 "C67" H 2365 7046 50  0000 L CNN
+F 1 "1uF" H 2365 6955 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2288 6850 50  0001 C CNN
+F 3 "~" H 2250 7000 50  0001 C CNN
+F 4 " " H -2650 50  50  0001 C CNN "DNP"
+F 5 "50V" H -2650 50  50  0001 C CNN "Voltage"
+	1    2250 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5BC22113
+P 1300 7000
+AR Path="/5B2FB0D8/5BC22113" Ref="C?"  Part="1" 
+AR Path="/5BC21A84/5BC22113" Ref="C52"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC22113" Ref="C52"  Part="1" 
+F 0 "C52" H 1415 7046 50  0000 L CNN
+F 1 "1uF" H 1415 6955 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1338 6850 50  0001 C CNN
+F 3 "~" H 1300 7000 50  0001 C CNN
+F 4 " " H -2650 50  50  0001 C CNN "DNP"
+F 5 "50V" H -2650 50  50  0001 C CNN "Voltage"
+	1    1300 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC2211A
+P 1700 7300
+AR Path="/5B2FB0D8/5BC2211A" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC2211A" Ref="#PWR084"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC2211A" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 1700 7050 50  0001 C CNN
+F 1 "GND" H 1705 7127 50  0000 C CNN
+F 2 "" H 1700 7300 50  0001 C CNN
+F 3 "" H 1700 7300 50  0001 C CNN
+	1    1700 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC22120
+P 1300 7300
+AR Path="/5B2FB0D8/5BC22120" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC22120" Ref="#PWR063"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC22120" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 1300 7050 50  0001 C CNN
+F 1 "GND" H 1305 7127 50  0000 C CNN
+F 2 "" H 1300 7300 50  0001 C CNN
+F 3 "" H 1300 7300 50  0001 C CNN
+	1    1300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC2212D
+P 2650 7300
+AR Path="/5B2FB0D8/5BC2212D" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC2212D" Ref="#PWR091"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC2212D" Ref="#PWR091"  Part="1" 
+F 0 "#PWR091" H 2650 7050 50  0001 C CNN
+F 1 "GND" H 2655 7127 50  0000 C CNN
+F 2 "" H 2650 7300 50  0001 C CNN
+F 3 "" H 2650 7300 50  0001 C CNN
+	1    2650 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC22133
+P 2250 7300
+AR Path="/5B2FB0D8/5BC22133" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC22133" Ref="#PWR089"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC22133" Ref="#PWR089"  Part="1" 
+F 0 "#PWR089" H 2250 7050 50  0001 C CNN
+F 1 "GND" H 2255 7127 50  0000 C CNN
+F 2 "" H 2250 7300 50  0001 C CNN
+F 3 "" H 2250 7300 50  0001 C CNN
+	1    2250 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5BC2E09F
+P 6350 1100
+AR Path="/5B2FB0D8/5BC2E09F" Ref="C?"  Part="1" 
+AR Path="/5BC21A84/5BC2E09F" Ref="C53"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC2E09F" Ref="C53"  Part="1" 
+F 0 "C53" H 6465 1146 50  0000 L CNN
+F 1 "100nF" H 6465 1055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6388 950 50  0001 C CNN
+F 3 "~" H 6350 1100 50  0001 C CNN
+F 4 " " H -250 150 50  0001 C CNN "DNP"
+F 5 "50V" H -250 150 50  0001 C CNN "Voltage"
+	1    6350 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BC2E0A6
+P 6350 1250
+AR Path="/5B2FB0D8/5BC2E0A6" Ref="#PWR?"  Part="1" 
+AR Path="/5BC21A84/5BC2E0A6" Ref="#PWR087"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5BC2E0A6" Ref="#PWR087"  Part="1" 
+F 0 "#PWR087" H 6350 1000 50  0001 C CNN
+F 1 "GND" H 6355 1077 50  0000 C CNN
+F 2 "" H 6350 1250 50  0001 C CNN
+F 3 "" H 6350 1250 50  0001 C CNN
+	1    6350 1250
+	1    0    0    -1  
+$EndComp
+Text Label 3050 2450 0    50   ~ 0
+SW_Node_P1
+Text Label 3050 2250 0    50   ~ 0
+Boost_P1
+Text Label 3100 5600 0    50   ~ 0
+SW_Node_P2
+Text Label 3100 5400 0    50   ~ 0
+Boost_P2
+Text Notes 3600 1000 0    98   ~ 0
+Phase 1 (P1)
+Text Notes 3350 4200 0    98   ~ 0
+Phase 2 (P2)
+Text Label 2800 2050 0    50   ~ 0
+DRVcc
+Text Label 2850 5200 0    50   ~ 0
+DRVcc
+Text Label 8050 5800 0    50   ~ 0
+S_P2_P
+Text Label 8550 5800 0    50   ~ 0
+S_P2_N
+Text Label 8000 2650 0    50   ~ 0
+S_P1_P
+Text Label 8500 2650 0    50   ~ 0
+S_P1_N
+Text GLabel 6150 4000 0    50   Output ~ 0
+Phase2_Isense_AI
+Text GLabel 6100 950  0    50   Output ~ 0
+Phase1_Isense_AI
+Text GLabel 4500 1950 0    50   Input ~ 0
+Tgate_P1_Res
+Text GLabel 2800 2050 0    50   Input ~ 0
+DRVcc
+Text GLabel 3050 2250 0    50   Output ~ 0
+Boost_P1
+Text GLabel 3050 2450 0    50   Output ~ 0
+SW_Node_P1
+Text GLabel 4500 2550 0    50   Input ~ 0
+Bgate_P1_Res
+Text GLabel 4400 3200 0    50   Output ~ 0
+Sense_P1_P
+Text GLabel 4400 3300 0    50   Output ~ 0
+Sense_P1_N
+Text GLabel 5950 1950 0    50   Input ~ 0
+Tgate_P1_Res
+Text GLabel 5950 2550 0    50   Input ~ 0
+Bgate_P1_Res
+Text GLabel 4550 5100 0    50   Input ~ 0
+Tgate_P2_Res
+Text GLabel 2850 5200 0    50   Input ~ 0
+DRVcc
+Text GLabel 3100 5400 0    50   Output ~ 0
+Boost_P2
+Text GLabel 3100 5600 0    50   Output ~ 0
+SW_Node_P2
+Text GLabel 4550 5700 0    50   Input ~ 0
+Bgate_P2_Res
+Text GLabel 4450 6350 0    50   Output ~ 0
+Sense_P2_P
+Text GLabel 4450 6450 0    50   Output ~ 0
+Sense_P2_N
+Text GLabel 4450 4800 0    50   Input ~ 0
+VBATT_FILT_PHASE_2_HV
+Text GLabel 6000 5100 0    50   Input ~ 0
+Tgate_P2_Res
+Text GLabel 6000 5700 0    50   Input ~ 0
+Bgate_P2_Res
+Text Label 8050 5050 0    50   ~ 0
+I_P2_P
+Text Label 8550 5050 0    50   ~ 0
+I_P2_N
+Text Label 7550 3900 0    50   ~ 0
+Isense_P2_N
+Text Label 7550 4100 0    50   ~ 0
+Isense_P2_P
+Text Label 7500 850  0    50   ~ 0
+Isense_P1_N
+Text Label 7500 1050 0    50   ~ 0
+Isense_P1_P
+Text Label 8000 1900 0    50   ~ 0
+I_P1_P
+Text Label 8500 1900 0    50   ~ 0
+I_P1_N
+Wire Wire Line
+	3800 2450 3800 2250
+Wire Wire Line
+	5150 2350 5150 2250
+Wire Wire Line
+	5150 2250 6600 2250
+Wire Wire Line
+	6600 2350 6600 2250
+Wire Wire Line
+	5150 2250 5150 2150
+Wire Wire Line
+	6600 2250 6600 2150
+Wire Wire Line
+	3050 2450 3800 2450
+Wire Wire Line
+	8000 3200 8000 3150
+Wire Wire Line
+	7850 2250 7900 2250
+Wire Wire Line
+	8000 2250 8100 2250
+Wire Wire Line
+	6600 2250 7350 2250
+Wire Wire Line
+	8100 3150 8000 3150
+Wire Wire Line
+	8000 3150 8000 2950
+Wire Wire Line
+	8400 3150 8500 3150
+Wire Wire Line
+	8500 3150 8500 3300
+Wire Wire Line
+	8000 2650 8000 2600
+Wire Wire Line
+	8400 2250 8500 2250
+Wire Wire Line
+	8500 3150 8500 2950
+Wire Wire Line
+	8500 2650 8500 2600
+Wire Wire Line
+	6300 1950 6250 1950
+Wire Wire Line
+	3050 2250 3450 2250
+Wire Wire Line
+	8500 2250 8800 2250
+Wire Wire Line
+	3850 5600 3850 5400
+Wire Wire Line
+	3850 5400 5200 5400
+Wire Wire Line
+	5200 5500 5200 5400
+Wire Wire Line
+	5200 5400 5200 5300
+Wire Wire Line
+	3100 5600 3850 5600
+Wire Wire Line
+	8050 6350 8050 6300
+Wire Wire Line
+	7900 5400 7950 5400
+Wire Wire Line
+	8050 5400 8150 5400
+Wire Wire Line
+	6650 5400 7400 5400
+Wire Wire Line
+	8150 6300 8050 6300
+Wire Wire Line
+	8050 6300 8050 6100
+Wire Wire Line
+	8450 6300 8550 6300
+Wire Wire Line
+	8050 5800 8050 5750
+Wire Wire Line
+	8450 5400 8550 5400
+Wire Wire Line
+	8550 6300 8550 6100
+Wire Wire Line
+	8550 5800 8550 5750
+Wire Wire Line
+	6350 5100 6300 5100
+Wire Wire Line
+	3100 5400 3500 5400
+Wire Wire Line
+	8550 5400 8850 5400
+Wire Wire Line
+	7350 2650 7350 2600
+Wire Wire Line
+	7350 2300 7350 2250
+Wire Wire Line
+	7350 2250 7500 2250
+Wire Wire Line
+	7400 5800 7400 5750
+Wire Wire Line
+	7400 5450 7400 5400
+Wire Wire Line
+	7400 5400 7550 5400
+Wire Wire Line
+	6600 1750 6600 1650
+Wire Wire Line
+	6600 1650 5150 1650
+Wire Wire Line
+	5150 1750 5150 1650
+Wire Wire Line
+	6650 4900 6650 4800
+Wire Wire Line
+	3350 2050 3450 2050
+Wire Wire Line
+	3450 2050 3450 2250
+Wire Wire Line
+	3450 2250 3500 2250
+Wire Wire Line
+	3050 2050 2800 2050
+Wire Wire Line
+	3100 5200 2850 5200
+Wire Wire Line
+	3400 5200 3500 5200
+Wire Wire Line
+	3500 5200 3500 5400
+Wire Wire Line
+	3500 5400 3550 5400
+Wire Wire Line
+	4850 5100 4900 5100
+Wire Wire Line
+	4850 5700 4900 5700
+Wire Wire Line
+	4800 2550 4850 2550
+Wire Wire Line
+	4800 1950 4850 1950
+Wire Wire Line
+	6250 2550 6300 2550
+Wire Wire Line
+	6300 5700 6350 5700
+Wire Wire Line
+	8050 5400 8050 5250
+Wire Wire Line
+	8550 5400 8550 5250
+Wire Wire Line
+	8550 4700 8550 4200
+Wire Wire Line
+	8550 4200 8450 4200
+Wire Wire Line
+	8150 4200 8050 4200
+Wire Wire Line
+	8050 4200 8050 4700
+Wire Wire Line
+	8050 4100 7550 4100
+Wire Wire Line
+	7550 3900 8550 3900
+Wire Wire Line
+	8000 2400 8000 2250
+Wire Wire Line
+	8500 2400 8500 2250
+Wire Wire Line
+	8050 5550 8050 5400
+Wire Wire Line
+	8550 5550 8550 5400
+Wire Wire Line
+	8050 5050 8050 5000
+Wire Wire Line
+	8550 5050 8550 5000
+Wire Wire Line
+	8500 1550 8500 1150
+Wire Wire Line
+	8500 1150 8400 1150
+Wire Wire Line
+	8100 1150 8000 1150
+Wire Wire Line
+	8000 1150 8000 1550
+Wire Wire Line
+	7500 850  8500 850 
+Wire Wire Line
+	8000 1900 8000 1850
+Wire Wire Line
+	8500 1900 8500 1850
+Wire Wire Line
+	8000 2250 8000 2100
+Wire Wire Line
+	8500 2250 8500 2100
+Wire Wire Line
+	6950 4000 6800 4000
+Wire Wire Line
+	6500 4000 6400 4000
+Wire Wire Line
+	6150 4000 6400 4000
+Wire Wire Line
+	6900 950  6750 950 
+Wire Wire Line
+	1300 7300 1300 7150
+Wire Wire Line
+	1300 6850 1300 6600
+Wire Wire Line
+	1700 6600 1700 6650
+Wire Wire Line
+	2250 6850 2250 6600
+Wire Wire Line
+	2650 6600 2650 6650
+Wire Wire Line
+	2250 7150 2250 7300
+Wire Wire Line
+	8000 1050 7500 1050
+Wire Wire Line
+	4400 1650 5150 1650
+Wire Wire Line
+	3800 2250 5150 2250
+Wire Wire Line
+	8550 6300 8550 6450
+Wire Wire Line
+	6650 5300 6650 5400
+Wire Wire Line
+	4450 4800 5200 4800
+Wire Wire Line
+	5200 4900 5200 4800
+Wire Wire Line
+	5200 4800 6650 4800
+Wire Wire Line
+	5200 5400 6650 5400
+Wire Wire Line
+	6650 5400 6650 5500
+Wire Wire Line
+	4400 3200 8000 3200
+Wire Wire Line
+	4400 3300 8500 3300
+Wire Wire Line
+	4450 6350 8050 6350
+Wire Wire Line
+	4450 6450 8550 6450
+Wire Wire Line
+	8050 4100 8050 4200
+Wire Wire Line
+	8550 3900 8550 4200
+Wire Wire Line
+	8000 1050 8000 1150
+Wire Wire Line
+	8500 850  8500 1150
+Connection ~ 5150 2250
+Connection ~ 6600 2250
+Connection ~ 3800 2250
+Connection ~ 8000 2250
+Connection ~ 8000 3150
+Connection ~ 8500 3150
+Connection ~ 8500 2250
+Connection ~ 5200 5400
+Connection ~ 8050 5400
+Connection ~ 8050 6300
+Connection ~ 8550 6300
+Connection ~ 8550 5400
+Connection ~ 7350 2250
+Connection ~ 7400 5400
+Connection ~ 5150 1650
+Connection ~ 3450 2250
+Connection ~ 3500 5400
+Connection ~ 8050 4200
+Connection ~ 8550 4200
+Connection ~ 8000 1150
+Connection ~ 8500 1150
+Connection ~ 6400 4000
+Connection ~ 6650 5400
+Connection ~ 3850 5400
+Connection ~ 5200 4800
+$Comp
+L device:R R?
+U 1 1 5B556253
+P 8000 2800
+AR Path="/5B2FB0D8/5B556253" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5B556253" Ref="R?"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5B556253" Ref="R62"  Part="1" 
+F 0 "R62" V 7900 2800 50  0000 C CNN
+F 1 "3R3" V 8000 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7930 2800 50  0001 C CNN
+F 3 "~" H 8000 2800 50  0001 C CNN
+F 4 " " H 0   1100 50  0001 C CNN "DNP"
+	1    8000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5B55A9D0
+P 8500 2800
+AR Path="/5B2FB0D8/5B55A9D0" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5B55A9D0" Ref="R?"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5B55A9D0" Ref="R68"  Part="1" 
+F 0 "R68" V 8400 2800 50  0000 C CNN
+F 1 "3R3" V 8500 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8430 2800 50  0001 C CNN
+F 3 "~" H 8500 2800 50  0001 C CNN
+F 4 " " H 500 1100 50  0001 C CNN "DNP"
+	1    8500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5B56399E
+P 7350 2800
+AR Path="/5B2FB0D8/5B56399E" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5B56399E" Ref="R?"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5B56399E" Ref="R49"  Part="1" 
+F 0 "R49" V 7250 2800 50  0000 C CNN
+F 1 "3R3" V 7350 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7280 2800 50  0001 C CNN
+F 3 "~" H 7350 2800 50  0001 C CNN
+F 4 " " H -650 1100 50  0001 C CNN "DNP"
+	1    7350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5B56D50A
+P 7400 5950
+AR Path="/5B2FB0D8/5B56D50A" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5B56D50A" Ref="R?"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5B56D50A" Ref="R50"  Part="1" 
+F 0 "R50" V 7300 5950 50  0000 C CNN
+F 1 "3R3" V 7400 5950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7330 5950 50  0001 C CNN
+F 3 "~" H 7400 5950 50  0001 C CNN
+F 4 " " H -600 4250 50  0001 C CNN "DNP"
+	1    7400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5B571C8A
+P 8050 5950
+AR Path="/5B2FB0D8/5B571C8A" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5B571C8A" Ref="R?"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5B571C8A" Ref="R64"  Part="1" 
+F 0 "R64" V 7950 5950 50  0000 C CNN
+F 1 "3R3" V 8050 5950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7980 5950 50  0001 C CNN
+F 3 "~" H 8050 5950 50  0001 C CNN
+F 4 " " H 50  4250 50  0001 C CNN "DNP"
+	1    8050 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5B576409
+P 8550 5950
+AR Path="/5B2FB0D8/5B576409" Ref="R?"  Part="1" 
+AR Path="/5BC21A84/5B576409" Ref="R?"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5B576409" Ref="R70"  Part="1" 
+F 0 "R70" V 8450 5950 50  0000 C CNN
+F 1 "3R3" V 8550 5950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8480 5950 50  0001 C CNN
+F 3 "~" H 8550 5950 50  0001 C CNN
+F 4 " " H 550 4250 50  0001 C CNN "DNP"
+	1    8550 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4100 6400 4000
+$Comp
+L device:Q_NMOS_GDS Q7
+U 1 1 5B5F8388
+P 5050 2550
+F 0 "Q7" H 5255 2596 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 5255 2505 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-2" H 5250 2650 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/FD/FDB2532_F085.pdf" H 5050 2550 50  0001 C CNN
+F 4 " " H 0   0   50  0001 C CNN "DNP"
+F 5 "FDB2532-F085" H 0   0   50  0001 C CNN "MPN"
+F 6 "150V" H 0   0   50  0001 C CNN "Voltage"
+	1    5050 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 6600 2450 6600
+Wire Wire Line
+	1300 6600 1500 6600
+$Comp
+L power:+12P #PWR064
+U 1 1 5B66617B
+P 1500 6600
+F 0 "#PWR064" H 1500 6450 50  0001 C CNN
+F 1 "+12P" H 1515 6773 50  0000 C CNN
+F 2 "" H 1500 6600 50  0001 C CNN
+F 3 "" H 1500 6600 50  0001 C CNN
+	1    1500 6600
+	1    0    0    -1  
+$EndComp
+Connection ~ 1500 6600
+Wire Wire Line
+	1500 6600 1700 6600
+$Comp
+L power:+12P #PWR090
+U 1 1 5B666203
+P 2450 6600
+F 0 "#PWR090" H 2450 6450 50  0001 C CNN
+F 1 "+12P" H 2465 6773 50  0000 C CNN
+F 2 "" H 2450 6600 50  0001 C CNN
+F 3 "" H 2450 6600 50  0001 C CNN
+	1    2450 6600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 6600
+Wire Wire Line
+	2450 6600 2650 6600
+$Comp
+L device:Q_NMOS_GDS Q6
+U 1 1 5B66C3EB
+P 5050 1950
+F 0 "Q6" H 5255 1996 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 5255 1905 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-2" H 5250 2050 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/FD/FDB2532_F085.pdf" H 5050 1950 50  0001 C CNN
+F 4 " " H 0   -600 50  0001 C CNN "DNP"
+F 5 "FDB2532-F085" H 0   -600 50  0001 C CNN "MPN"
+F 6 "150V" H 0   0   50  0001 C CNN "Voltage"
+	1    5050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Q_NMOS_GDS Q10
+U 1 1 5B66C46B
+P 6500 1950
+F 0 "Q10" H 6705 1996 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 6705 1905 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-2" H 6700 2050 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/FD/FDB2532_F085.pdf" H 6500 1950 50  0001 C CNN
+F 4 " " H 1450 -600 50  0001 C CNN "DNP"
+F 5 "FDB2532-F085" H 1450 -600 50  0001 C CNN "MPN"
+F 6 "150V" H 0   0   50  0001 C CNN "Voltage"
+	1    6500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Q_NMOS_GDS Q11
+U 1 1 5B66C4F5
+P 6500 2550
+F 0 "Q11" H 6705 2596 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 6705 2505 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-2" H 6700 2650 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/FD/FDB2532_F085.pdf" H 6500 2550 50  0001 C CNN
+F 4 " " H 1450 0   50  0001 C CNN "DNP"
+F 5 "FDB2532-F085" H 1450 0   50  0001 C CNN "MPN"
+F 6 "150V" H 0   0   50  0001 C CNN "Voltage"
+	1    6500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Q_NMOS_GDS Q12
+U 1 1 5B66C653
+P 6550 5100
+F 0 "Q12" H 6755 5146 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 6755 5055 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-2" H 6750 5200 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/FD/FDB2532_F085.pdf" H 6550 5100 50  0001 C CNN
+F 4 " " H 1500 2550 50  0001 C CNN "DNP"
+F 5 "FDB2532-F085" H 1500 2550 50  0001 C CNN "MPN"
+F 6 "150V" H 0   0   50  0001 C CNN "Voltage"
+	1    6550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Q_NMOS_GDS Q13
+U 1 1 5B66C7C9
+P 6550 5700
+F 0 "Q13" H 6755 5746 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 6755 5655 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-2" H 6750 5800 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/FD/FDB2532_F085.pdf" H 6550 5700 50  0001 C CNN
+F 4 " " H 1500 3150 50  0001 C CNN "DNP"
+F 5 "FDB2532-F085" H 1500 3150 50  0001 C CNN "MPN"
+F 6 "150V" H 0   0   50  0001 C CNN "Voltage"
+	1    6550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Q_NMOS_GDS Q8
+U 1 1 5B66C855
+P 5100 5100
+F 0 "Q8" H 5305 5146 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 5305 5055 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-2" H 5300 5200 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/FD/FDB2532_F085.pdf" H 5100 5100 50  0001 C CNN
+F 4 " " H 50  2550 50  0001 C CNN "DNP"
+F 5 "FDB2532-F085" H 50  2550 50  0001 C CNN "MPN"
+F 6 "150V" H 0   0   50  0001 C CNN "Voltage"
+	1    5100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Q_NMOS_GDS Q9
+U 1 1 5B66C8E5
+P 5100 5700
+F 0 "Q9" H 5305 5746 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 5305 5655 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-2" H 5300 5800 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/FD/FDB2532_F085.pdf" H 5100 5700 50  0001 C CNN
+F 4 " " H 50  3150 50  0001 C CNN "DNP"
+F 5 "FDB2532-F085" H 50  3150 50  0001 C CNN "MPN"
+F 6 "150V" H 0   0   50  0001 C CNN "Voltage"
+	1    5100 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 1650 0    50   Input ~ 0
+VBATT_FILT_PHASE_1_HV
+Wire Notes Line rgb(255, 0, 0)
+	2400 3000 2400 1500
+Wire Notes Line rgb(255, 0, 0)
+	2400 1500 6950 1500
+Wire Notes Line rgb(255, 0, 0)
+	6950 1500 6950 3000
+Text Notes 6400 1600 0    50   ~ 0
+High Voltage
+Wire Wire Line
+	6100 950  6350 950 
+Connection ~ 6350 950 
+Wire Wire Line
+	6350 950  6450 950 
+Wire Notes Line rgb(255, 0, 0)
+	2400 3000 6950 3000
+Wire Notes Line rgb(255, 0, 0)
+	2450 6150 2450 4650
+Wire Notes Line rgb(255, 0, 0)
+	2450 4650 7000 4650
+Wire Notes Line rgb(255, 0, 0)
+	2450 6150 7000 6150
+Wire Notes Line rgb(255, 0, 0)
+	7000 4650 7000 6150
+Text Notes 6500 4750 0    50   ~ 0
+High Voltage
+$Comp
+L device:L L?
+U 1 1 5B918D3C
+P 7750 5300
+AR Path="/5B2FB0D8/5B918D3C" Ref="L?"  Part="1" 
+AR Path="/5BC21A84/5B918D3C" Ref="L?"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5B918D3C" Ref="L16"  Part="1" 
+F 0 "L16" V 7572 5300 50  0000 C CNN
+F 1 "L" H 7663 5300 50  0000 C CNN
+F 2 "Footprints:SRP1770TA-100M" H 7750 5300 50  0001 C CNN
+F 3 "~" H 7750 5300 50  0001 C CNN
+F 4 " " H 50  500 50  0001 C CNN "DNP"
+	1    7750 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 5300 7550 5300
+Wire Wire Line
+	7550 5300 7550 5400
+Connection ~ 7550 5400
+Wire Wire Line
+	7550 5400 7600 5400
+Wire Wire Line
+	7900 5300 7950 5300
+Wire Wire Line
+	7950 5300 7950 5400
+Connection ~ 7950 5400
+Wire Wire Line
+	7950 5400 8050 5400
+$Comp
+L device:L L?
+U 1 1 5B92BC57
+P 7700 2150
+AR Path="/5B2FB0D8/5B92BC57" Ref="L?"  Part="1" 
+AR Path="/5BC21A84/5B92BC57" Ref="L?"  Part="1" 
+AR Path="/5C8FC872/5C8FC88B/5B92BC57" Ref="L15"  Part="1" 
+F 0 "L15" V 7522 2150 50  0000 C CNN
+F 1 "L" V 7613 2150 50  0000 C CNN
+F 2 "Footprints:SRP1770TA-100M" H 7700 2150 50  0001 C CNN
+F 3 "~" H 7700 2150 50  0001 C CNN
+F 4 " " H 0   -100 50  0001 C CNN "DNP"
+	1    7700 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7850 2150 7900 2150
+Wire Wire Line
+	7900 2150 7900 2250
+Connection ~ 7900 2250
+Wire Wire Line
+	7900 2250 8000 2250
+Wire Wire Line
+	7550 2150 7500 2150
+Wire Wire Line
+	7500 2150 7500 2250
+Connection ~ 7500 2250
+Wire Wire Line
+	7500 2250 7550 2250
+$EndSCHEMATC

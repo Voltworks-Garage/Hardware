@@ -1,0 +1,78 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "aa23bfe3-454b-4a2b-bfe1-101c747eb84e")
+	(paper "A4")
+	(lib_symbols)
+	(text "24 Series Connections\n88V Pack Nominal\nResistive Pack Balancing\nCurrent Transducer\n24 external NTCs"
+		(exclude_from_sim no)
+		(at 31.75 109.22 0)
+		(effects
+			(font
+				(size 7.493 7.493)
+			)
+			(justify left bottom)
+		)
+		(uuid "000b46d6-b833-4804-8f56-56d539f76d09")
+	)
+	(text "Battery Management System (BMS)"
+		(exclude_from_sim no)
+		(at 13.97 30.48 0)
+		(effects
+			(font
+				(size 10.0076 10.0076)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd70858b-2f9a-4b3f-9af5-ead3a9ba57e9")
+	)
+	(sheet
+		(at 229.87 60.96)
+		(size 50.8 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005b5cd4cd")
+		(property "Sheetname" "TopLevel"
+			(at 229.87 59.6388 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TopLevel.kicad_sch"
+			(at 229.87 92.5123 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS_02"
+				(path "/aa23bfe3-454b-4a2b-bfe1-101c747eb84e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
